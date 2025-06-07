@@ -1,0 +1,50 @@
+name: Bug Report
+description: File a bug report to help us improve Veloren.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "Describe the bug"
+      description: "A clear and concise description of what the bug is. If you can, please include steps to reproduce the behavior."
+      placeholder: "When I do [...], [...] happens."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: "Expected behavior"
+      description: "A clear and concise description of what you expected to happen."
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "If applicable, add screenshots to help explain your problem."
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: "Operating System"
+      description: "What is your operating system?"
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional context"
+      description: "Add any other context about the problem here. This could include your game version, hardware specs, or anything else that might be relevant." 

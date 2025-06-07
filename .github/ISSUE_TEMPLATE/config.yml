@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Veloren Discord
+    url: https://discord.gg/veloren
+    about: Please ask and answer questions here.
+  - name: Veloren Matrix
+    url: https://matrix.to/#/#veloren:matrix.org
+    about: You can also join our Matrix community. 
